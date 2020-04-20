@@ -2,69 +2,55 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var isAtMaxScale = false
-    private let maxScale: CGFloat = 1.1
-    private let animation = Animation.easeInOut(duration: 1).repeatForever(autoreverses: true)
+    @State var isVisible = true
+    private let animation = Animation.easeInOut(duration: 10).repeatForever(autoreverses: true)
     
     var body: some View {
-        VStack {
+        VStack(alignment: .center, spacing: 30) {
             
-            Text("What in the World")
-                .bold()
-                .underline()
-                .font(.system(size: 35))
-                .offset(y: 27)
-                .scaleEffect(isAtMaxScale ? maxScale : 1)
+            Image("cloud")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 60, height: 60)
+                .opacity(isVisible ? 0.5 : 1)
                 .onAppear {
                     withAnimation(self.animation, {
-                        self.isAtMaxScale.toggle()
+                        self.isVisible.toggle()
                     })
             }
             
-            ScrollView(.vertical) {
-                Text("Donec porta enim ac velit facilisis, at euismod odio tempus. Duis ") +
-                Text("pretium ")
+            VStack(alignment: .center, spacing: 40) {
+                Text("CHAPTERS")
                     .bold()
                     .font(.system(size: 40))
-                    .foregroundColor(Color.blue)
-                Text("nisl a consequat tincidunt. Aenean quis metus id magna dapibus efficitur vitae sed velit. Duis ac cursus metus. Morbi")
-                Image("pic2")
-                    .resizable()
-                    .frame(width: 400, height: 400)
-                Text("ultricies tortor sed arcu pulvinar, at ultrices magna aliquet. ") +
-                Text("Maecenas ")
-                    .bold()
-                    .font(.system(size: 40))
-                    .foregroundColor(Color.red) +
-                Text("luctus, felis a venenatis mattis, mauris dui facilisis odio, sit amet euismod massa purus non lectus. Etiam eu ante ut quam vehicula molestie et a tortor. Suspendisse potenti. ")
-                Text("Aenean ")
-                    .bold()
-                    .font(.system(size: 40))
-                    .foregroundColor(Color.pink) +
-                Text("dictum at purus vitae dignissim. ")
-                
-                Image("pic3")
-                    .resizable()
-                    .frame(width: 400, height: 225)
-                
-                Text("Donec interdum sapien eros, ac ultrices libero lacinia at. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sit amet tellus erat. Vivamus interdum ") +
-                Text("Vivamus")
-                .bold()
-                .font(.system(size: 40))
-                .foregroundColor(Color.orange) +
-                Text(" ultricies laoreet, libero dui tristique massa, eu accumsan libero ipsum eget risus.")
-                
-                Spacer()
-                Text("Next Page").padding(.top, 20)
-                Image("next").resizable().frame(width: 50, height: 50)
+                VStack(alignment: .leading, spacing: 30) {
+                    Text("I. Adventures of the Cloud")
+                        .bold()
+                        .font(.system(size: 30))
+                    Text("II. What does it do")
+                        .bold()
+                        .font(.system(size: 30))
+                    Text("III. Where is it and what is it")
+                        .bold()
+                        .font(.system(size: 30))
+                    Text("IV. What does it need to run")
+                        .bold()
+                        .font(.system(size: 30))
+                    Text("V. Who controls it")
+                        .bold()
+                        .font(.system(size: 30))
+                    Text("VI. It saves the day")
+                        .bold()
+                        .font(.system(size: 30))
+                    Text("VII. Lesson Quiz")
+                        .font(.system(size: 30))
+                        .bold()
+                        .foregroundColor(Color.blue)
+                }.padding()
             }
-            .font(.system(size: 30))
             .padding()
-            .offset(y: 20)
-            .multilineTextAlignment(.center)
-            
-            
-        }
+            .border(Color.blue, width: 1)
+        }.offset(y: -20)
     }
 }
 
