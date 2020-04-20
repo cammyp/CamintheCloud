@@ -1,6 +1,6 @@
-# ChapterBook
+# Adventures of the Cloud
 
-📚Beginner Chapter Book Template for Larger Educational App
+🌩 Storybook educational application that explains the Cloud and provides Cloud assesment
 
 # Features
 - Learn about the Cloud
