@@ -1,6 +1,6 @@
 # Adventures of the Cloud
 
-🌩 Storybook educational application that explains the Cloud and provides Cloud assesment
+🌩 Storybook educational application that explains the Cloud and provides Cloud assessment
 
 # Features
 - Learn about the Cloud
