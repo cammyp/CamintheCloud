@@ -25,12 +25,13 @@ struct ChapterTwo: View {
                 Text("Let me explain something to you 👩‍🏫. Think about your devices 📱💻. Pretend they are little magic boxes ✳️.  They preform tasks for us however we don’t know how the tasks are being preformed . Magic 🧙🏾‍♂️. You can think of the cloud 🌩 as the “trapped door” explanation to a magic trick 🧙🏾‍♂️✳️. The cloud 🌩 explains how to preform tasks to your devices 📱💻 .  ")
                     .bold()
                     .font(.system(size: 32))
-                    .frame(alignment: .topLeading)
+                    .frame(width: 370, alignment: .topLeading)
                     .padding()
                 
                 Text("The cloud 🌩 does this by giving your devices little pieces of information ⏺. Information that your devices need to preform your tasks ⏺📱. Your tasks are usually, send a tweet 🐦 or stream this video 📡.  The information ⏺ could be anything from a Gmail message 📥 to an Instagram picture 🎴.  ")
                     .bold()
                     .font(.system(size: 32))
+                    .frame(width: 370, alignment: .topLeading)
                     .padding()
             }
             .font(.system(size: 30))
