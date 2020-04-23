@@ -1,3 +1,4 @@
+// need to make introduction page and ending page
 
 struct Book {
     var textArray = [
@@ -16,6 +17,6 @@ struct Book {
         "‘How is this possible?’ Suzie asked herself. While the cloud is owned by everyone, yourself and companies included, data centers are usually owned by companies.",
         "Making the security of the cloud only as good as the security of the individual companies.",
         "Thankfully Suzie knew how to handle this! She wrote a foolproof malware detection script for her CyberSecurity class last semester.",
-        "She was certain that if the data center only used her script they could protect themselves from phishing attack and get the cloud back up and running."
+        "She was certain that if the data center only used her script they could protect themselves from phishing attacks and get the cloud back up and running."
     ]
 }

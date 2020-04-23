@@ -1,12 +1,10 @@
-# Adventures of the Cloud
+# The Cloud
 
-🌩 Storybook educational application that explains the Cloud and provides Cloud assessment
+☁ Educational story application that explains the cloud
 
 # Features
-- Learn about the Cloud
-- Cloud quiz assesment 
+- Learn about the Cloud through an interactive story
 
-![img](https://media.giphy.com/media/QxpUSwYErHccdW4zhi/giphy.gif)
-![img](https://media.giphy.com/media/hX6xANPAgMk6JH7pbf/giphy.gif)
-![img](https://media.giphy.com/media/gfeR86PBiY5tBnJkGC/giphy.gif)
+![img](https://i.imgur.com/8FnNx6Il.png)
+![img](https://media.giphy.com/media/lp7hZuNdGhrHRi7sOj/giphy.gif)
 
