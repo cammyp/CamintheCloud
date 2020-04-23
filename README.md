@@ -5,6 +5,6 @@
 # Features
 - Learn about the Cloud through an interactive story
 
-![img](https://i.imgur.com/8FnNx6Il.png)
 ![img](https://media.giphy.com/media/lp7hZuNdGhrHRi7sOj/giphy.gif)
+![img](https://i.imgur.com/8FnNx6Il.png)
 
