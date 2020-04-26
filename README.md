@@ -1,10 +1,10 @@
-# The Cloud
+# LittleStories
 
-☁ Educational story application that explains the cloud
+☁ Digital Children's Storybook Application 
 
 # Features
-- Learn about the Cloud through an interactive story
+- Read about Lisa and the cloud
+- Take quizzes to check your knowledge
 
-![img](https://media.giphy.com/media/lp7hZuNdGhrHRi7sOj/giphy.gif)
-![img](https://i.imgur.com/8FnNx6Il.png)
+![img](https://media.giphy.com/media/JqDZfJPttnCeCyFM9y/giphy.gif)
 
