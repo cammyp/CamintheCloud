@@ -1,6 +1,6 @@
 # LittleStories
 
-☁ Digital Children's Storybook Application 
+☁ Digital Storybook Application for Children
 
 # Features
 - Read about Lisa and the cloud
