@@ -1,4 +1,4 @@
-# Little Stories
+# Little Stories: Lisa and The Cloud
 
 ☁ Digital Storybook Application for Children
 
