@@ -1,4 +1,4 @@
-# LittleStories
+# Little Stories
 
 ☁ Digital Storybook Application for Children
 
