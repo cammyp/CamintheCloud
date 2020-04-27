@@ -2,7 +2,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        BookCover()
+        NavigationView {
+            BookCover()
+            .navigationBarTitle("")
+            .navigationBarHidden(true)
+        }
+        
     }
 }
 

@@ -14,6 +14,12 @@
 		2A47C72F2455E0B000EEF68B /* TextTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7282455E0B000EEF68B /* TextTemplate.swift */; };
 		2A47C7302455E0B000EEF68B /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7292455E0B000EEF68B /* NextButton.swift */; };
 		2AADD1102457183E00F54BCB /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD10F2457183E00F54BCB /* AnimatedButton.swift */; };
+		2AADD112245723CA00F54BCB /* PageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD111245723CA00F54BCB /* PageCard.swift */; };
+		2AADD11424572F7900F54BCB /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD11324572F7900F54BCB /* BackView.swift */; };
+		2AADD1162457365800F54BCB /* ImageTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD1152457365800F54BCB /* ImageTemplate.swift */; };
+		2AADD1182457376700F54BCB /* CoverText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD1172457376700F54BCB /* CoverText.swift */; };
+		2AADD11A245737C500F54BCB /* CoverTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD119245737C400F54BCB /* CoverTitle.swift */; };
+		2AADD11C2457398400F54BCB /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD11B2457398400F54BCB /* CoverImage.swift */; };
 		2ABF95D1243C3E740083EBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF95D0243C3E740083EBF3 /* AppDelegate.swift */; };
 		2ABF95D3243C3E740083EBF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF95D2243C3E740083EBF3 /* SceneDelegate.swift */; };
 		2ABF95D7243C3E740083EBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ABF95D6243C3E740083EBF3 /* Assets.xcassets */; };
@@ -29,6 +35,12 @@
 		2A47C7282455E0B000EEF68B /* TextTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTemplate.swift; sourceTree = "<group>"; };
 		2A47C7292455E0B000EEF68B /* NextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
 		2AADD10F2457183E00F54BCB /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		2AADD111245723CA00F54BCB /* PageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCard.swift; sourceTree = "<group>"; };
+		2AADD11324572F7900F54BCB /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		2AADD1152457365800F54BCB /* ImageTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTemplate.swift; sourceTree = "<group>"; };
+		2AADD1172457376700F54BCB /* CoverText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverText.swift; sourceTree = "<group>"; };
+		2AADD119245737C400F54BCB /* CoverTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverTitle.swift; sourceTree = "<group>"; };
+		2AADD11B2457398400F54BCB /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
 		2ABF95CD243C3E740083EBF3 /* LittleStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleStories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABF95D0243C3E740083EBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ABF95D2243C3E740083EBF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,10 +85,16 @@
 				2ABF95D2243C3E740083EBF3 /* SceneDelegate.swift */,
 				2A47C7272455E0B000EEF68B /* ContentView.swift */,
 				2A47C7232455E0B000EEF68B /* BookCover.swift */,
+				2AADD11B2457398400F54BCB /* CoverImage.swift */,
+				2AADD119245737C400F54BCB /* CoverTitle.swift */,
+				2AADD1172457376700F54BCB /* CoverText.swift */,
 				2A47C7242455E0B000EEF68B /* BookPage.swift */,
+				2AADD111245723CA00F54BCB /* PageCard.swift */,
+				2AADD1152457365800F54BCB /* ImageTemplate.swift */,
 				2A47C7282455E0B000EEF68B /* TextTemplate.swift */,
 				2A47C7292455E0B000EEF68B /* NextButton.swift */,
 				2AADD10F2457183E00F54BCB /* AnimatedButton.swift */,
+				2AADD11324572F7900F54BCB /* BackView.swift */,
 				2ABF95D6243C3E740083EBF3 /* Assets.xcassets */,
 				2ABF95DB243C3E740083EBF3 /* LaunchScreen.storyboard */,
 				2ABF95DE243C3E740083EBF3 /* Info.plist */,
@@ -164,12 +182,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AADD11424572F7900F54BCB /* BackView.swift in Sources */,
 				2ABF95D1243C3E740083EBF3 /* AppDelegate.swift in Sources */,
+				2AADD1182457376700F54BCB /* CoverText.swift in Sources */,
 				2A47C72E2455E0B000EEF68B /* ContentView.swift in Sources */,
+				2AADD11A245737C500F54BCB /* CoverTitle.swift in Sources */,
 				2A47C72C2455E0B000EEF68B /* Data.swift in Sources */,
 				2A47C72B2455E0B000EEF68B /* BookPage.swift in Sources */,
+				2AADD1162457365800F54BCB /* ImageTemplate.swift in Sources */,
 				2AADD1102457183E00F54BCB /* AnimatedButton.swift in Sources */,
 				2ABF95D3243C3E740083EBF3 /* SceneDelegate.swift in Sources */,
+				2AADD112245723CA00F54BCB /* PageCard.swift in Sources */,
+				2AADD11C2457398400F54BCB /* CoverImage.swift in Sources */,
 				2A47C72F2455E0B000EEF68B /* TextTemplate.swift in Sources */,
 				2A47C7302455E0B000EEF68B /* NextButton.swift in Sources */,
 				2A47C72A2455E0B000EEF68B /* BookCover.swift in Sources */,

@@ -1,22 +1,15 @@
 import SwiftUI
 
 struct BookCover: View {
-    
+
     var body: some View {
         ZStack  {
-            Image("background")
+            BackView(upperBound: 0.7, lowerBound: 0.3)
             VStack(spacing: 50) {
-                Text("Little Stories")
-                    .bold()
-                    .font(.system(size: 40))
-                    .foregroundColor(Color.blue)
+                CoverText()
                 VStack {
-                    Image("00")
-                    Text("Lisa and The Cloud")
-                        .bold()
-                        .font(.system(size: 60))
-                        .foregroundColor(Color.black)
-                        .multilineTextAlignment(.center)
+                    CoverImage()
+                    CoverTitle()
                 }
                 AnimatedButton()
             }

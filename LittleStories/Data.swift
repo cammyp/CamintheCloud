@@ -1,5 +1,6 @@
 struct Story {
-    var text = ["Lisa was at home on her computer when suddenly Netflix stopped working. It kept giving her a weird 404 error message. She tried to refresh the page, even restarted her computer.",
+    var text = [
+    "Lisa was at home on her computer when suddenly Netflix stopped working. It kept giving her a weird 404 error message. She tried to refresh the page, even restarted her computer.",
     "Next Lisa tried Hulu, but that was down as well. She checked her gmail but there was a connectivity issue making it to where she could not receive any incoming emails or view her saved emails. ‘What the heck is going on?!’ Suzie yelled.",
     "’The cloud must be down!’, Lisa thought to herself.",
     "Lisa could not imagine being stuck inside without a working phone, computer, or tablet. The internet sends little peices of information from the cloud to our devices and With the cloud down, the internet was having issues accessing this information.",

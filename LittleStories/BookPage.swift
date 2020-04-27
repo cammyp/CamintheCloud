@@ -7,17 +7,14 @@ struct BookPage: View {
     
     var body: some View {
         ZStack  {
-            Image("background")
-            VStack(spacing: 50) {
-                VStack(spacing: 80) {
-                    Image("\(self.index + 1)0")
-                    TextTemplate(text: story.text[self.index])
-                }
+            BackView(upperBound: 0.7, lowerBound: 0.3)
+            VStack(spacing: 30) {
+                PageCard(index: $index)
                 HStack {
-                    NextButton(index: $index, isType: .constant(false))
-                    NextButton(index: $index, isType: .constant(true))
+                    NextButton(index: $index, isType: .constant(false)).opacity(index == 0 ? 0 : 1)
+                    NextButton(index: $index, isType: .constant(true)).opacity(index == 11 ? 0 : 1)
                 }
-            }
+            }.offset(y: -70)
         }
     }
 }
