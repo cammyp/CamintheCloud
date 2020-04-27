@@ -18,7 +18,7 @@ struct CoverView: View {
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                 }
-                ButtonTemplate(text: .constant("Continue >"))
+                ButtonTemplate(text: .constant("Read Story"))
             }
         }
     }

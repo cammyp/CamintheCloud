@@ -9,8 +9,7 @@ struct TextTemplate: View {
             .bold()
             .font(.system(size: 25))
             .foregroundColor(Color.black)
-            .frame(width: 350, height: 300)
-            .multilineTextAlignment(.center)
+            .frame(width: 350, height: 300, alignment: .top)
     }
 }
 

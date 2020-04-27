@@ -3,7 +3,7 @@ import SwiftUI
 struct ButtonTemplate: View {
     
     @State var isLarge = false
-    var animation = Animation.easeInOut(duration: 1).repeatForever(autoreverses: true)
+    //var animation = Animation.easeInOut(duration: 1).repeatForever(autoreverses: true)
     @Binding var text: String
     
     var body: some View {
@@ -15,10 +15,10 @@ struct ButtonTemplate: View {
             .background(Color.blue)
             .cornerRadius(50)
             .padding()
-            .scaleEffect(self.isLarge ? 1 : 1.2)
-            .animation(animation)
+            //.scaleEffect(isLarge ? 1.2 : 1)
+            //.animation(animation)
             .onAppear() {
-                self.isLarge.toggle()
+               // self.isLarge = true
         }
     }
 }

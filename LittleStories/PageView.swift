@@ -8,14 +8,20 @@ struct PageView: View {
     var body: some View {
         ZStack  {
             Image("back")
-            VStack(spacing: 70) {
-                VStack {
+            VStack(spacing: 50) {
+                VStack(spacing: 80) {
                     Image("\(self.index + 1)0")
                     TextTemplate(text: story.text[self.index])
                 }
-                ButtonTemplate(text: .constant("Next Page >"))
-                    .onTapGesture {
-                        self.index += 1
+                HStack {
+                    ButtonTemplate(text: .constant("< Previous"))
+                        .onTapGesture {
+                            self.index -= 1
+                    }
+                    ButtonTemplate(text: .constant("Next >"))
+                        .onTapGesture {
+                            self.index += 1
+                    }
                 }
             }
         }
