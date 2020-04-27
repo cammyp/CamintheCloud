@@ -6,11 +6,8 @@
 - Read about Lisa and the cloud
 - Take quizzes to check your knowledge
 
-![img](https://i.imgur.com/rufDZjNm.png)
-![img](https://i.imgur.com/7KLjj0Nm.png)
-![img](https://i.imgur.com/Q9plcMSm.png)
-![img](https://i.imgur.com/xGlP7mBm.png)
-![img](https://i.imgur.com/yoiBmzrm.png)
+![img](https://media.giphy.com/media/IhaxolJlNe5w0t1jTJ/giphy.gif)
+![img](https://media.giphy.com/media/WqRvpz3Z2Siau2Op2a/giphy.gif)
+![img](https://media.giphy.com/media/elJnRoHpOFcvFKFRAH/giphy.gif)
 
-![img](https://media.giphy.com/media/JqDZfJPttnCeCyFM9y/giphy.gif)
 
