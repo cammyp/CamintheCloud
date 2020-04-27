@@ -7,7 +7,6 @@
 - Take quizzes to check your knowledge
 
 ![img](https://i.imgur.com/rufDZjNl.png)
-![img](https://i.imgur.com/xGlP7mBl.png)
 ![img](https://i.imgur.com/7KLjj0Nl.png)
 ![img](https://i.imgur.com/Q9plcMSl.png)
 
