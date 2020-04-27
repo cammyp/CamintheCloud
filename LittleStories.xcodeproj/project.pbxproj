@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A47C72A2455E0B000EEF68B /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7232455E0B000EEF68B /* CoverView.swift */; };
-		2A47C72B2455E0B000EEF68B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7242455E0B000EEF68B /* PageView.swift */; };
+		2A47C72A2455E0B000EEF68B /* BookCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7232455E0B000EEF68B /* BookCover.swift */; };
+		2A47C72B2455E0B000EEF68B /* BookPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7242455E0B000EEF68B /* BookPage.swift */; };
 		2A47C72C2455E0B000EEF68B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7252455E0B000EEF68B /* Data.swift */; };
-		2A47C72D2455E0B000EEF68B /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7262455E0B000EEF68B /* EndView.swift */; };
 		2A47C72E2455E0B000EEF68B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7272455E0B000EEF68B /* ContentView.swift */; };
 		2A47C72F2455E0B000EEF68B /* TextTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7282455E0B000EEF68B /* TextTemplate.swift */; };
-		2A47C7302455E0B000EEF68B /* ButtonTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7292455E0B000EEF68B /* ButtonTemplate.swift */; };
+		2A47C7302455E0B000EEF68B /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C7292455E0B000EEF68B /* NextButton.swift */; };
+		2AADD1102457183E00F54BCB /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD10F2457183E00F54BCB /* AnimatedButton.swift */; };
 		2ABF95D1243C3E740083EBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF95D0243C3E740083EBF3 /* AppDelegate.swift */; };
 		2ABF95D3243C3E740083EBF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF95D2243C3E740083EBF3 /* SceneDelegate.swift */; };
 		2ABF95D7243C3E740083EBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ABF95D6243C3E740083EBF3 /* Assets.xcassets */; };
@@ -22,13 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A47C7232455E0B000EEF68B /* CoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
-		2A47C7242455E0B000EEF68B /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		2A47C7232455E0B000EEF68B /* BookCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCover.swift; sourceTree = "<group>"; };
+		2A47C7242455E0B000EEF68B /* BookPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPage.swift; sourceTree = "<group>"; };
 		2A47C7252455E0B000EEF68B /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		2A47C7262455E0B000EEF68B /* EndView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
 		2A47C7272455E0B000EEF68B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A47C7282455E0B000EEF68B /* TextTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTemplate.swift; sourceTree = "<group>"; };
-		2A47C7292455E0B000EEF68B /* ButtonTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTemplate.swift; sourceTree = "<group>"; };
+		2A47C7292455E0B000EEF68B /* NextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		2AADD10F2457183E00F54BCB /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
 		2ABF95CD243C3E740083EBF3 /* LittleStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleStories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABF95D0243C3E740083EBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ABF95D2243C3E740083EBF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,11 +72,11 @@
 				2ABF95D0243C3E740083EBF3 /* AppDelegate.swift */,
 				2ABF95D2243C3E740083EBF3 /* SceneDelegate.swift */,
 				2A47C7272455E0B000EEF68B /* ContentView.swift */,
-				2A47C7232455E0B000EEF68B /* CoverView.swift */,
-				2A47C7242455E0B000EEF68B /* PageView.swift */,
+				2A47C7232455E0B000EEF68B /* BookCover.swift */,
+				2A47C7242455E0B000EEF68B /* BookPage.swift */,
 				2A47C7282455E0B000EEF68B /* TextTemplate.swift */,
-				2A47C7292455E0B000EEF68B /* ButtonTemplate.swift */,
-				2A47C7262455E0B000EEF68B /* EndView.swift */,
+				2A47C7292455E0B000EEF68B /* NextButton.swift */,
+				2AADD10F2457183E00F54BCB /* AnimatedButton.swift */,
 				2ABF95D6243C3E740083EBF3 /* Assets.xcassets */,
 				2ABF95DB243C3E740083EBF3 /* LaunchScreen.storyboard */,
 				2ABF95DE243C3E740083EBF3 /* Info.plist */,
@@ -164,15 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A47C72D2455E0B000EEF68B /* EndView.swift in Sources */,
 				2ABF95D1243C3E740083EBF3 /* AppDelegate.swift in Sources */,
 				2A47C72E2455E0B000EEF68B /* ContentView.swift in Sources */,
 				2A47C72C2455E0B000EEF68B /* Data.swift in Sources */,
-				2A47C72B2455E0B000EEF68B /* PageView.swift in Sources */,
+				2A47C72B2455E0B000EEF68B /* BookPage.swift in Sources */,
+				2AADD1102457183E00F54BCB /* AnimatedButton.swift in Sources */,
 				2ABF95D3243C3E740083EBF3 /* SceneDelegate.swift in Sources */,
 				2A47C72F2455E0B000EEF68B /* TextTemplate.swift in Sources */,
-				2A47C7302455E0B000EEF68B /* ButtonTemplate.swift in Sources */,
-				2A47C72A2455E0B000EEF68B /* CoverView.swift in Sources */,
+				2A47C7302455E0B000EEF68B /* NextButton.swift in Sources */,
+				2A47C72A2455E0B000EEF68B /* BookCover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

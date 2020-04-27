@@ -14,5 +14,6 @@ struct Story {
      // checkpoint - what is a phising attack
     "The cloud is owned by individuals and companies. The security of the cloud however it up to the companies.",
     // checkpoint - who owns the cloud
-    "Thankfully Suzie knew how to handle this! She wrote a foolproof malware detection script for her CyberSecurity class last semester. She was certain that if the data center only used her script they could protect themselves from the phishing attacks and get the cloud back up and running."]
+    "Thankfully Suzie knew how to handle this! She wrote a foolproof malware detection script for her CyberSecurity class last semester. She was certain that if the data center only used her script they could protect themselves from the phishing attacks and get the cloud back up and running.",
+    "Will Lisa get the cloud back up and running before it is too late? Stay tuned for chapter two, coming out later this month!"]
 }

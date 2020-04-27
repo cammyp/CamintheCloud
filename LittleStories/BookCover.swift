@@ -1,10 +1,10 @@
 import SwiftUI
 
-struct CoverView: View {
+struct BookCover: View {
     
     var body: some View {
         ZStack  {
-            Image("back")
+            Image("background")
             VStack(spacing: 50) {
                 Text("Little Stories")
                     .bold()
@@ -18,14 +18,14 @@ struct CoverView: View {
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                 }
-                ButtonTemplate(text: .constant("Read Story"))
+                AnimatedButton()
             }
         }
     }
 }
 
-struct CoverView_Previews: PreviewProvider {
+struct BookCover_Previews: PreviewProvider {
     static var previews: some View {
-        CoverView()
+        BookCover()
     }
 }

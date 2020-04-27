@@ -1,13 +1,12 @@
 import SwiftUI
 
-struct ButtonTemplate: View {
+struct AnimatedButton: View {
     
     @State var isLarge = false
-    //var animation = Animation.easeInOut(duration: 1).repeatForever(autoreverses: true)
-    @Binding var text: String
+    var animation = Animation.easeInOut(duration: 1).repeatForever(autoreverses: true)
     
     var body: some View {
-        Text(text)
+        Text("Read Story")
             .bold()
             .font(.system(size: 20))
             .foregroundColor(Color.white)
@@ -15,16 +14,16 @@ struct ButtonTemplate: View {
             .background(Color.blue)
             .cornerRadius(50)
             .padding()
-            //.scaleEffect(isLarge ? 1.2 : 1)
-            //.animation(animation)
+            .scaleEffect(isLarge ? 1 : 1.2)
+            .animation(animation)
             .onAppear() {
-               // self.isLarge = true
+                self.isLarge = true
         }
     }
 }
 
-struct ButtonTemplate_Previews: PreviewProvider {
+struct AnimatedButton_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonTemplate(text: .constant("Next Page >"))
+        AnimatedButton()
     }
 }
