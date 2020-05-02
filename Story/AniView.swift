@@ -11,6 +11,7 @@ struct AniView: UIViewRepresentable {
         let animation = Animation.named(ani)
         aniView.animation = animation
         aniView.loopMode = .loop
+        aniView.backgroundBehavior = .pauseAndRestore
         aniView.play()
         return aniView
     }

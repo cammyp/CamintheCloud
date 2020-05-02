@@ -21,9 +21,10 @@
 		2A5BCFD3245CD3ED00CB485C /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5BCFD2245CD3ED00CB485C /* LogoView.swift */; };
 		2A5BCFD5245CD44900CB485C /* AniZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5BCFD4245CD44900CB485C /* AniZStack.swift */; };
 		2A5BCFD7245CD6A300CB485C /* BeginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5BCFD6245CD6A300CB485C /* BeginButton.swift */; };
-		2ABFCF0C245D19A70040DD50 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFCF0B245D19A70040DD50 /* QuizView.swift */; };
-		2ABFCF0E245D2ABB0040DD50 /* QuizView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFCF0D245D2ABB0040DD50 /* QuizView2.swift */; };
+		2ABFCF0C245D19A70040DD50 /* QuizView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFCF0B245D19A70040DD50 /* QuizView4.swift */; };
+		2ABFCF0E245D2ABB0040DD50 /* QuizView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFCF0D245D2ABB0040DD50 /* QuizView5.swift */; };
 		2ABFCF10245D2CEC0040DD50 /* QuizView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFCF0F245D2CEC0040DD50 /* QuizView3.swift */; };
+		2ABFCF14245D4D240040DD50 /* QuizButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFCF13245D4D240040DD50 /* QuizButtons.swift */; };
 		2AE4AC6F245B9FF30062BA8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE4AC6E245B9FF30062BA8F /* AppDelegate.swift */; };
 		2AE4AC71245B9FF30062BA8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE4AC70245B9FF30062BA8F /* SceneDelegate.swift */; };
 		2AE4AC73245B9FF30062BA8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE4AC72245B9FF30062BA8F /* ContentView.swift */; };
@@ -53,9 +54,10 @@
 		2A5BCFD2245CD3ED00CB485C /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		2A5BCFD4245CD44900CB485C /* AniZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniZStack.swift; sourceTree = "<group>"; };
 		2A5BCFD6245CD6A300CB485C /* BeginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginButton.swift; sourceTree = "<group>"; };
-		2ABFCF0B245D19A70040DD50 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
-		2ABFCF0D245D2ABB0040DD50 /* QuizView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView2.swift; sourceTree = "<group>"; };
+		2ABFCF0B245D19A70040DD50 /* QuizView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView4.swift; sourceTree = "<group>"; };
+		2ABFCF0D245D2ABB0040DD50 /* QuizView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView5.swift; sourceTree = "<group>"; };
 		2ABFCF0F245D2CEC0040DD50 /* QuizView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView3.swift; sourceTree = "<group>"; };
+		2ABFCF13245D4D240040DD50 /* QuizButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizButtons.swift; sourceTree = "<group>"; };
 		2AE4AC6B245B9FF30062BA8F /* Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE4AC6E245B9FF30062BA8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AE4AC70245B9FF30062BA8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,9 +122,10 @@
 				2A5BCFD2245CD3ED00CB485C /* LogoView.swift */,
 				2A5BCFD6245CD6A300CB485C /* BeginButton.swift */,
 				2AE4AC8D245BB0B70062BA8F /* BookPage.swift */,
+				2ABFCF13245D4D240040DD50 /* QuizButtons.swift */,
 				2ABFCF0F245D2CEC0040DD50 /* QuizView3.swift */,
-				2ABFCF0B245D19A70040DD50 /* QuizView.swift */,
-				2ABFCF0D245D2ABB0040DD50 /* QuizView2.swift */,
+				2ABFCF0B245D19A70040DD50 /* QuizView4.swift */,
+				2ABFCF0D245D2ABB0040DD50 /* QuizView5.swift */,
 				2A5BCF82245C918500CB485C /* PageContent.swift */,
 				2A5BCFD4245CD44900CB485C /* AniZStack.swift */,
 				2A5BCF86245C9C1200CB485C /* NavButtons.swift */,
@@ -238,11 +241,12 @@
 				2AE4AC8E245BB0B70062BA8F /* BookPage.swift in Sources */,
 				2AE4AC6F245B9FF30062BA8F /* AppDelegate.swift in Sources */,
 				2A5BCFD7245CD6A300CB485C /* BeginButton.swift in Sources */,
+				2ABFCF14245D4D240040DD50 /* QuizButtons.swift in Sources */,
 				2AE4AC71245B9FF30062BA8F /* SceneDelegate.swift in Sources */,
-				2ABFCF0E245D2ABB0040DD50 /* QuizView2.swift in Sources */,
+				2ABFCF0E245D2ABB0040DD50 /* QuizView5.swift in Sources */,
 				2AE4ACB4245C84380062BA8F /* BookCover.swift in Sources */,
 				2AE4AC90245BB2170062BA8F /* ColorExtension.swift in Sources */,
-				2ABFCF0C245D19A70040DD50 /* QuizView.swift in Sources */,
+				2ABFCF0C245D19A70040DD50 /* QuizView4.swift in Sources */,
 				2AE4AC73245B9FF30062BA8F /* ContentView.swift in Sources */,
 				2AE4AC86245BAF780062BA8F /* AniView.swift in Sources */,
 			);
