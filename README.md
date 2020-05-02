@@ -1,13 +1,13 @@
-# Little Stories: Lisa and The Cloud
+# Cam in the cloud
 
-☁ Digital Storybook Application for Children
+☁ Learn all out the cloud while reading on your phone. 
 
-![img](https://media.giphy.com/media/IhaxolJlNe5w0t1jTJ/giphy.gif)
-![img](https://media.giphy.com/media/WqRvpz3Z2Siau2Op2a/giphy.gif)
+![img](https://i.imgur.com/TMidEMPl.png)
+![img](https://i.imgur.com/zHGooIjl.png)
+![img](https://i.imgur.com/y0rdZw0l.png)
 
 # Features
-- Read about Lisa and the cloud
-- Take quizzes to check your knowledge
+- Read about the cloud and check your knowledge
 
 
 
