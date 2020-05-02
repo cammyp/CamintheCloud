@@ -1,6 +1,6 @@
 # Cam in the cloud
 
-☁ Learn all out the cloud while reading on your phone. 
+☁ Read about Cam and his journey to demystifing cloud computing. Make sure to read the story checkpoints to test your understanding along the way. 
 
 ![img](https://media.giphy.com/media/fYHXWKUyh5blQlS5Kg/giphy.gif)
 ![img](https://media.giphy.com/media/gjwniRUkrtFSLWJRiJ/giphy.gif)
