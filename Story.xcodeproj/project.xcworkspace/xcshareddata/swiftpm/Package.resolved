@@ -9,6 +9,15 @@
           "revision": "4e5877425dae5c10792fc9d22d53dc6bf6824dc1",
           "version": "3.1.8"
         }
+      },
+      {
+        "package": "ModalView",
+        "repositoryURL": "https://github.com/diniska/modal-view",
+        "state": {
+          "branch": "master",
+          "revision": "ad7c17cbbdf0662f3defc5bfefd6d912d458d4a4",
+          "version": null
+        }
       }
     ]
   },

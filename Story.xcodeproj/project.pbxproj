@@ -10,6 +10,7 @@
 		2A4D9ABF245DCC0500A390C9 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D9ABE245DCC0500A390C9 /* DismissButton.swift */; };
 		2A4D9AC1245DCC7E00A390C9 /* CheckpointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D9AC0245DCC7E00A390C9 /* CheckpointView.swift */; };
 		2A4D9AC3245DCD1F00A390C9 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D9AC2245DCD1F00A390C9 /* QuestionView.swift */; };
+		2A4D9AC6245DCEF400A390C9 /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = 2A4D9AC5245DCEF400A390C9 /* ModalView */; };
 		2A5BCF83245C918500CB485C /* PageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5BCF82245C918500CB485C /* PageContent.swift */; };
 		2A5BCF87245C9C1200CB485C /* NavButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5BCF86245C9C1200CB485C /* NavButtons.swift */; };
 		2A5BCFA3245CBB2500CB485C /* lf30_editor_cQ5KjG.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A5BCFA2245CBB2500CB485C /* lf30_editor_cQ5KjG.json */; };
@@ -85,6 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE4AC84245BAF180062BA8F /* Lottie in Frameworks */,
+				2A4D9AC6245DCEF400A390C9 /* ModalView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +175,7 @@
 			name = Story;
 			packageProductDependencies = (
 				2AE4AC83245BAF180062BA8F /* Lottie */,
+				2A4D9AC5245DCEF400A390C9 /* ModalView */,
 			);
 			productName = Story;
 			productReference = 2AE4AC6B245B9FF30062BA8F /* The Cloud.app */;
@@ -204,6 +207,7 @@
 			mainGroup = 2AE4AC62245B9FF30062BA8F;
 			packageReferences = (
 				2AE4AC82245BAF180062BA8F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				2A4D9AC4245DCEF400A390C9 /* XCRemoteSwiftPackageReference "modal-view" */,
 			);
 			productRefGroup = 2AE4AC6C245B9FF30062BA8F /* Products */;
 			projectDirPath = "";
@@ -456,6 +460,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2A4D9AC4245DCEF400A390C9 /* XCRemoteSwiftPackageReference "modal-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/diniska/modal-view";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		2AE4AC82245BAF180062BA8F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -467,6 +479,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2A4D9AC5245DCEF400A390C9 /* ModalView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A4D9AC4245DCEF400A390C9 /* XCRemoteSwiftPackageReference "modal-view" */;
+			productName = ModalView;
+		};
 		2AE4AC83245BAF180062BA8F /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2AE4AC82245BAF180062BA8F /* XCRemoteSwiftPackageReference "lottie-ios" */;

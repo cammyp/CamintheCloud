@@ -1,4 +1,5 @@
 import SwiftUI
+import ModalView
 
 struct QuizButtons: View {
     
@@ -6,7 +7,7 @@ struct QuizButtons: View {
     
     var body: some View {
         ZStack {
-            NavigationLink(destination: QuizView3().navigationBarTitle("").navigationBarHidden(true)) {
+            ModalLink(destination: QuizView3().navigationBarTitle("").navigationBarHidden(true)) {
                 Text("View Checkpoint")
                     .bold()
                     .font(.system(size: 15))
@@ -17,7 +18,7 @@ struct QuizButtons: View {
                     .shadow(color: Color.black, radius: 1, x: 3, y: 3)
             }.opacity(index == 3 ?  1 : 0)
             
-            NavigationLink(destination: QuizView4().navigationBarTitle("").navigationBarHidden(true)) {
+            ModalLink(destination: QuizView4().navigationBarTitle("").navigationBarHidden(true)) {
                 Text("View Checkpoint")
                     .bold()
                     .font(.system(size: 15))
@@ -28,7 +29,7 @@ struct QuizButtons: View {
                     .shadow(color: Color.black, radius: 1, x: 3, y: 3)
             }.opacity(index == 4 ?  1 : 0)
             
-            NavigationLink(destination: QuizView5().navigationBarTitle("").navigationBarHidden(true)) {
+            ModalLink(destination: QuizView5().navigationBarTitle("").navigationBarHidden(true)) {
                 Text("View Checkpoint")
                     .bold()
                     .font(.system(size: 15))
