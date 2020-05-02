@@ -40,6 +40,6 @@ struct AniZStack: View {
 
 struct AniZStack_Previews: PreviewProvider {
     static var previews: some View {
-        AniZStack(index: .constant(0))
+        AniZStack(index: .constant(7))
     }
 }
