@@ -1,4 +1,5 @@
 import SwiftUI
+import StoreKit
 
 struct NavButtons: View {
     
@@ -27,6 +28,7 @@ struct NavButtons: View {
             }
             Button(action: {
                 if(self.index == 8) {
+                    SKStoreReviewController.requestReview()
                     self.presentationMode.wrappedValue.dismiss()
                 } else {
                     self.index += 1
